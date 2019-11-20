@@ -1,0 +1,17 @@
+.projeto__descricao {
+    color: #595959;
+    font-weight: 100;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media screen and (min-width: 0) {
+    .projeto__descricao {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .projeto__descricao {
+        font-size: 1.75rem;
+    }
+}

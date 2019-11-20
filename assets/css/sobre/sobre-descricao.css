@@ -1,0 +1,25 @@
+.sobre__descricao {
+    color: #595959;
+    font-weight: 100;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7.5rem;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sobre__descricao {
+        font-size: 1.75rem;
+    }
+}

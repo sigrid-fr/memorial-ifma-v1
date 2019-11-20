@@ -1,0 +1,21 @@
+.categoria__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.categoria__imagem--audio {
+    background-image: url('../../img/categorias/audio.jpg');
+}
+
+.categoria__imagem--video {
+    background-image: url('../../img/categorias/video.jpg');
+}
+
+.categoria__imagem--texto {
+    background-image: url('../../img/categorias/texto.jpg');
+}

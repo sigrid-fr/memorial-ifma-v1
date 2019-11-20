@@ -1,0 +1,15 @@
+.projeto {
+    text-align: center;
+    background-color: #F7F4F4;
+}
+
+@media screen and (min-width: 0) {
+    .projeto {
+        padding: 2.5rem 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .projeto {
+        padding: 2.5rem;
+    }
+}

@@ -1,0 +1,29 @@
+.destaque__funcao {
+  color: #595959;
+  font-size: 1.25rem;
+  text-transform: lowercase;
+}
+
+.destaque__form label {
+  display: inline-block;
+}
+
+.destaque__checkboxFake {
+  display: inline-block;
+  }
+
+.destaque__form-botao {
+  max-width: 20em;
+  margin-top: 1em;
+  display: none;
+  margin: 0 auto;
+  background: transparent;
+  color: #B72E2E;
+  border: 1px solid #B72E2E;
+  }
+  
+.destaque__form-botao:hover,
+.destaque__form-botao:focus {
+  color: #fff;
+  background-color: #B72E2E;
+  }

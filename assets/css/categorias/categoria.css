@@ -1,0 +1,15 @@
+.categoria {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0) {
+    .categoria {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .categoria {
+        margin-bottom: 0;
+    }
+}

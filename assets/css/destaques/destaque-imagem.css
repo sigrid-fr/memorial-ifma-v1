@@ -1,0 +1,26 @@
+.destaque__imagem {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  height: 250px;
+  margin: 0 auto;
+  width: 330px;
+  
+  }
+
+.destaque__img {
+  width: 100%;
+  display: block;
+  }
+
+.destaque__imagem--projeto1 {
+  background-image: url('../../img/destaques/comecando-criar-logotipo.png');
+}
+
+.destaque__imagem--projeto2 {
+  background-image: url('../../img/destaques/dicas-fotografia.png');
+}
+
+.destaque__imagem--projeto3 {
+  background-image: url('../../img/destaques/comecando-criar-logotipo.png');
+}

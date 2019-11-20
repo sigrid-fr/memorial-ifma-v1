@@ -1,0 +1,25 @@
+.destaque {
+  display: flex;
+  margin-bottom: 5rem;
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 3px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3px;
+}
+
+
+@media screen and (min-width: 0) {
+  .destaque {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .destaque {
+    margin-bottom: 0;
+  }
+}
